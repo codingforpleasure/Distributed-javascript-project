@@ -141,7 +141,7 @@ $ git ls-files | xargs wc -l > symfony.wc
         h = parseInt(Math.sqrt(total) * 30, 10);
 	console.log("Gil new CodeFlower");
         // create a new CodeFlower
-        currentCodeFlower = new CodeFlower("#visualization", w, h,json).update(json);
+        currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
       };
 
       d3.json('data.json', createCodeFlower);
