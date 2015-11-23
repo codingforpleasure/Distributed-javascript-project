@@ -135,9 +135,10 @@ $ git ls-files | xargs wc -l > symfony.wc
         // remove previous flower to save memory
         if (currentCodeFlower) currentCodeFlower.cleanup();
         // adapt layout size to the total number of elements
-        var total = countElements(json);
-        w = parseInt(Math.sqrt(total) * 60, 10);
-        h = parseInt(Math.sqrt(total) * 60, 10);
+        //var total = countElements(json);
+	//for now making the SVG fix size
+        w = 600; //parseInt(Math.sqrt(total) * 60, 10);
+        h = 600; //parseInt(Math.sqrt(total) * 60, 10);
         // create a new CodeFlower
         currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
       };
