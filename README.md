@@ -11,4 +11,6 @@ My To-do list tasks:
  6. Release the beta version to the enthusiastic book readers community :)
 
 
+![Alt Text](https://github.com/codingforpleasure/Distributed-javascript-project/blob/master/ConnectivityGraphDemo.png)
+
 Gil
